@@ -1,0 +1,12 @@
+* {
+  margin: 0px; /*外距*/
+  padding: 0px; /*內距*/
+}
+body {
+  background-color: beige;
+  font-family: Microsoft JhengHei; /*字型：微軟正黑體*/
+}
+#wrapper {
+  margin: 0px auto; /*上下外距為0px 左右外距為auto*/
+  width: 1024px;
+}
