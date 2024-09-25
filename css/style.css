@@ -14,8 +14,8 @@ body {
   height: 270px;
 }
 img {
-  height: 100%;
   width: 100%;
+  height: 100%;
 }
 nav {
   background-color: #b63d32;
@@ -39,4 +39,27 @@ li a {
 li a:hover {
   /*滑鼠滑過連結時的效果，此時文字顏色會變成黃色*/
   color: #ffc90e;
+}
+#content_in {
+  padding: 30px 50px; /*上下內距30px 左右內距50px*/
+  text-align: center;
+  background-color: #f4f4ed;
+}
+#content_in h1 {
+  color: #b63d32;
+  margin-bottom: 10px; /*下外距10px*/
+}
+#content_in p {
+  font-size: 15px; /*文字大小15px*/
+  margin-bottom: 20px; /*下外距20px*/
+}
+#content_in a {
+  display: block;
+  width: 130px;
+  height: 40px;
+  line-height: 40px; /*行高設定與元素a相同，確保文字內容垂直置中*/
+  margin: 0px auto;
+  text-decoration: none; /*設定不顯示任何文字特效*/
+  background-color: #b63d32;
+  color: #ffffff;
 }
