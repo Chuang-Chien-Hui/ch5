@@ -63,3 +63,12 @@ li a:hover {
   background-color: #b63d32;
   color: #ffffff;
 }
+footer {
+  background-color: #71552a;
+  text-align: center;
+}
+footer p {
+  font-size: 10px;
+  color: #ffffff;
+  padding: 10px 0px; /*上下內距10px 左右內距0px*/
+}
