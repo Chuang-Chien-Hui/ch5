@@ -11,7 +11,11 @@ body {
   width: 1024px;
 }
 #logo {
-  height: 250px;
+  height: 270px;
+}
+img {
+  height: 100%;
+  width: 100%;
 }
 nav {
   background-color: #b63d32;
