@@ -51,10 +51,40 @@ li a:hover {
   /*滑鼠滑過連結時的效果，此時文字顏色會變成黃色*/
   color: #ffc90e;
 }
+#sidebar {
+  width: 250px;
+  height: 350px;
+  float: left; /*sidebar元素靠左浮動*/
+  background-color: #ffe634;
+}
+#sidebar ul {
+  margin-left: 65px; /*ul元素的左外距設定為65px*/
+  margin-top: 30px; /*ul元素的上外距設定為30px*/
+}
+#sidebar li {
+  float: none; /*將li元素從靠左浮動恢復成直向排列*/
+}
+#sidebar li a {
+  color: #000000; /*將li a元素的文字顏色從白色改為黑色*/
+  padding: 10px 20px; /*將li a元素的內距從15px 20px 改為10px 20px*/
+  border-style: solid; /*設定邊框樣式為實線*/
+  border-color: #b63d32; /*設定邊框顏色為酒紅色*/
+  margin: 10px;
+}
+#sidebar li a:hover {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+#content {
+  width: 774px;
+  height: 350px;
+  float: left;
+  background-color: #f4f4ed;
+}
 #content_in {
   padding: 30px 50px; /*上下內距30px 左右內距50px*/
-  text-align: center;
-  background-color: #f4f4ed;
+  /*text-align: center;
+  background-color: #f4f4ed;*/
 }
 #content_in h1 {
   color: #b63d32;
@@ -73,8 +103,10 @@ li a:hover {
   text-decoration: none; /*設定不顯示任何文字特效*/
   background-color: #b63d32;
   color: #ffffff;
+  text-align: center;
 }
 footer {
+  clear: both;
   background-color: #71552a;
   text-align: center;
 }
