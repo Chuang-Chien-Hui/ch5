@@ -1,0 +1,56 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; /*內距跟邊框不會增加元素本身的寬度*/
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+body {
+  background-color: beige;
+  font-family: Microsoft JhengHei;
+}
+#wrapper {
+  width: 350px;
+  height: 250px;
+  border-radius: 3px; /*設定圓角3px*/
+  border: 1px solid #ccc; /*設定邊框寬度1px 邊框樣式為實線 邊框顏色為灰色*/
+
+  /*設定顯示框於網頁正中間*/
+  position: absolute; /*absolute 絕對定位*/
+  top: 50%;
+  left: 50%;
+  margin-top: -125px;
+  margin-left: -175px;
+}
+header {
+  background-color: #ececec;
+  padding: 10px 15px;
+}
+#content {
+  padding: 15px;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+input.form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  font-size: 14px;
+  color: #555555;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  padding: 5px; /*內容文字的上下左右間隙為5px*/
+}
+.btn {
+  display: block;
+  width: 100%;
+  color: #ffffff;
+  background-color: #b63d32;
+  padding: 10px;
+  text-decoration: none; /*取消文字特效*/
+  border-radius: 3px;
+  margin-top: 15px; /*上外距為15px*/
+  text-align: center; /*設定內容文字為水平置中*/
+}
